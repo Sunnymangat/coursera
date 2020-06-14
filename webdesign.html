@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>webpage</title>
+  <style media="screen">
+  @media only screen and (min-width:1201px){
+    .move{
+      float:right;
+        background-color: lightgrey;
+        height:190px;
+        font-size:25px;
+        margin-top:10px;
+        margin-bottom:10px;
+        width:19.5%;
+        border:1px double green;
+    }
+      .container{
+        background-blend-mode:screen;
+        background-image: url("C:/Users/sonia/Pictures/Saved Pictures/car (2).jpg");
+        background-color:lightpink;
+        max-width:100%;
+        min-width:685px;
+        animation-name:k;
+        animation-duration:10s;
+        animation-iteration-count:infinite;
+        animation-direction: alternate;
+        animation-play-state: running;
+        box-sizing:border-box;
+      }
+      .container:hover{
+        animation-play-state: paused;
+      }
+      @keyframes k{
+        10%{background-color:skyblue;}
+        20%{background-color:lightyellow;}
+        30%{background-color:crimson;}
+        40%{background-color:tan;}
+        50%{background-color:gold;}
+        60%{background-color:orange;}
+        70%{background-color:yellow;}
+        80%{background-color:blue;}
+        90%{background-color:lightgreen;}
+        100%{background-color:lightpink;}
+      }
+      .head{
+        text-shadow:3px 3px 1px white;
+        background-color:cyan;
+        border:2px double green;
+        margin-bottom:10px;
+        box-sizing:border-box;
+        box-shadow:10px 10px 0 10px greenyellow;
+      }
+      .opt{
+        background-color:lightgreen;
+        border:3px solid red;
+        height:50px;
+        font-size:30px;
+        word-spacing:30px;
+        animation-name:j;
+        animation-duration:1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      @keyframes j{
+        0%{background-color:gold;}
+        100%{background-color: greenyellow;}
+          }
+        .opt:hover{
+          height:70px;
+          font-size:40px;
+        }
+      .cont{
+        max-height: 100%;
+        min-height:var(--main-height);
+        font-size:25px;
+        width:80%;
+        float:left;
+        border:2px solid greenyellow;
+        margin-top:10px;
+        margin-bottom:10px;
+      }
+      a{
+        color:black;
+        text-decoration-line: none;
+      }
+      .sug{
+        border:1px groove green;
+        font-size:20px;
+        clear:both;
+        height:100px;
+        background-color:lightblue;
+      }
+      .f{
+        font-size:20px;
+      }
+      .container .h{
+        box-sizing: border-box;
+        background-color:yellow;
+        border-radius:40%;
+        float:left;
+        white-space: pre;
+      }
+  }
+  @media only screen and (min-width:219px) and (max-width:1200px) {
+    .move{
+      float:left;
+        background-color: lightgrey;
+        height:190px;
+        font-size:25px;
+        margin-top:10px;
+        margin-bottom:10px;
+        width:19.5%;
+        border:1px double green;
+    }
+      .container{
+        background-blend-mode:screen;
+        background-image: url("C:/Users/sonia/Pictures/Saved Pictures/car (2).jpg");
+        background-color:lightpink;
+        max-width:100%;
+        min-width:685px;
+        animation-name:k;
+        animation-duration:10s;
+        animation-iteration-count:infinite;
+        animation-direction: alternate;
+        animation-play-state: running;
+        box-sizing:border-box;
+      }
+      .container:hover{
+        animation-play-state: paused;
+      }
+      @keyframes k{
+        10%{background-color:skyblue;}
+        20%{background-color:lightyellow;}
+        30%{background-color:crimson;}
+        40%{background-color:tan;}
+        50%{background-color:gold;}
+        60%{background-color:orange;}
+        70%{background-color:yellow;}
+        80%{background-color:blue;}
+        90%{background-color:lightgreen;}
+        100%{background-color:lightpink;}
+      }
+      .head{
+        text-shadow:3px 3px 1px white;
+        background-color:cyan;
+        border:2px double green;
+        margin-bottom:10px;
+        box-sizing:border-box;
+        box-shadow:10px 10px 0 10px greenyellow;
+      }
+      .opt{
+        background-color:lightgreen;
+        border:3px solid red;
+        height:50px;
+        font-size:30px;
+        word-spacing:30px;
+        animation-name:j;
+        animation-duration:1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      }
+      @keyframes j{
+        0%{background-color:gold;}
+        100%{background-color: greenyellow;
+        box-sizing: border-box;}
+          }
+        .opt:hover{
+          height:70px;
+          font-size:40px;
+        }
+      .cont{
+        max-height: 100%;
+        min-height:var(--main-height);
+        font-size:25px;
+        width:80%;
+        float:left;
+        border:2px solid greenyellow;
+        margin-top:10px;
+        margin-bottom:10px;
+      }
+      a{
+        color:black;
+        text-decoration-line: none;
+      }
+      .sug{
+        border:1px groove green;
+        font-size:20px;
+        clear:both;
+        height:100px;
+        background-color:lightblue;
+      }
+      .f{
+        font-size:20px;
+      }
+      .container .h{
+        box-sizing: border-box;
+        background-color:yellow;
+        border-radius:40%;
+        float:left;
+        white-space: pre;
+      }
+  }
+  </style>
+  </head>
+<body>
+  <div class="container" style="background-color:white;">
+    <div class="head">
+      <h1>Coding Classes</h1>
+    </div>
+    <div class="opt">
+      <a href="#">Home |</a>
+      <a href="#">Gallery  |</a>
+      <a href="#">Suggestion  |</a>
+      <a href="#">Reports  |</a>
+      <a href="#">AboutUs  |</a>
+    </div>
+    <div class="cont">
+      <p>
+this is awesome .this is awesome .this is awesome .
+this is awesome .this is awesome .this is awesome .
+this is awesome .this is awesome .this is awesome .
+this is awesome .this is awesome .this is awesome .this is awesome .
+this is awesome .this is awesome .this is awesome .this is awesome .
+this is awesome .this is awesome .this is awesome .this is awesome .
+this is awesome .this is awesome .this is awesome .this is awesome .
+this is awesome .this is awesome .this is awesome .this is awesome .
+<img src="C:/files/Jaquar Light Kubik 4 feet 20-watt LED tube Light (Cool Day Light 6500K) (20)_ Amazon.in_ Home & Kitchen_files\028_472x480_N._CB514253692_.png" alt="Light">
+<ol>
+  <li>computers</li>
+  <li>laptops</li>
+  <li>desktops</li>
+  <li>tablets</li>
+</ol>
+</p>
+    </div>
+    <div class="move">
+      <marquee direction="up" loop="infinity">
+      <a href="#">Karan aujla</a><br>
+      <a href="#">Sidhu Moosewala</a><br>
+      <a href="#">Jazzy B</a><br>
+      <a href="#">Gurnam Bhullar</a><br>
+      </marquee>
+    </div>
+    <div class="sug">
+      <span>Enter your Suggestion below:-</span><br>
+      <input type="text" name="Suggestion" placeholder="e.g. like this or not "
+      required>
+    </div>
+    <div class="f">
+      <footer dir="rtl"><i>copyright@2020</i>
+      </footer>
+      <div class="h">
+        <a href="#">  Help  <br>  Desk  </a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    var e;
+    e=document.querySelector(".container").style.backgroundColor;
+    console.log(e);
+  </script>
+</body>
+</html>
